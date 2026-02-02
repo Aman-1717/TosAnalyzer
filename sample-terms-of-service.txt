@@ -1,0 +1,83 @@
+TERMS OF SERVICE AGREEMENT
+
+Last Updated: June 15, 2023
+
+1. INTRODUCTION
+
+Welcome to CloudStore ("Service"). These Terms of Service ("Terms") govern your access to and use of our cloud storage platform, website, and services. By accessing or using our Service, you agree to be bound by these Terms. If you disagree with any part of the terms, you may not access the Service.
+
+2. ACCOUNT REGISTRATION
+
+2.1 User Account. To use certain features of the Service, you must register for an account. You agree to provide accurate, current, and complete information during the registration process and to update such information to keep it accurate, current, and complete.
+
+2.2 Account Security. You are responsible for safeguarding the password that you use to access the Service and for any activities or actions under your password. We encourage you to use "strong" passwords (passwords that use a combination of upper and lowercase letters, numbers, and symbols) with your account.
+
+3. CONTENT AND LICENSES
+
+3.1 User Content. Our Service allows you to upload, store, send, and share content, including but not limited to text, files, images, and videos ("User Content"). You retain all rights in, and are solely responsible for, the User Content you upload, post, or otherwise make available through the Service.
+
+3.2 License Grant. By uploading User Content to the Service, you grant CloudStore a worldwide, non-exclusive, royalty-free license to use, reproduce, modify, adapt, publish, translate, and distribute your User Content in any existing or future media, for the sole purpose of enabling us to provide, promote, and improve the Service.
+
+3.3 Content Restrictions. You agree not to upload, post, or otherwise make available any User Content that:
+   a) is unlawful, harmful, threatening, abusive, harassing, defamatory, or otherwise objectionable;
+   b) infringes any patent, trademark, trade secret, copyright, or other proprietary rights;
+   c) contains software viruses or any other computer code designed to interrupt, destroy, or limit the functionality of any computer software or hardware;
+   d) constitutes unauthorized or unsolicited advertising, promotional materials, junk mail, spam, or any other form of solicitation.
+
+4. PRIVACY POLICY
+
+4.1 Data Collection. We collect and process personal information about you when you use our Service. Information about how we collect and use your data is provided in our Privacy Policy, which is incorporated into these Terms by reference.
+
+4.2 Data Analytics. We may collect and analyze non-personal information related to your use of the Service, including but not limited to usage patterns, traffic data, and feature utilization, to improve our Service.
+
+5. SUBSCRIPTION AND BILLING
+
+5.1 Fees. Some aspects of the Service may be provided for a fee. You will be required to select a payment plan and provide accurate billing information. By submitting such information, you grant us the right to provide the information to third-party payment processors for purposes of facilitating payment.
+
+5.2 Automatic Renewal. Unless you notify us before the end of the applicable subscription period that you want to cancel, your subscription will automatically renew, and you authorize us to charge your payment method for the renewal term at the then-current rate.
+
+5.3 Price Changes. We reserve the right to adjust pricing for our Service at any time. We will notify you of any price changes at least 30 days in advance.
+
+5.4 Refunds. Payments are non-refundable except as required by law or as explicitly stated in these Terms.
+
+6. TERMINATION
+
+6.1 Termination by You. You may terminate your account at any time by following the instructions on our website. Upon termination, your right to use the Service will immediately cease.
+
+6.2 Termination by Us. We may terminate or suspend your account and access to the Service immediately, without prior notice or liability, for any reason, including but not limited to a breach of these Terms.
+
+6.3 Effect of Termination. Upon termination, your right to use the Service will immediately cease. If your account is terminated, we may delete any content or other materials associated with your account and we will have no obligation to maintain or forward any information stored in our database.
+
+7. LIMITATION OF LIABILITY
+
+7.1 Disclaimer of Warranties. THE SERVICE IS PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. CLOUDSTORE EXPRESSLY DISCLAIMS ALL WARRANTIES OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+7.2 Limitation of Liability. IN NO EVENT SHALL CLOUDSTORE, ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOSS OF PROFITS, DATA, USE, GOODWILL, OR OTHER INTANGIBLE LOSSES, RESULTING FROM (I) YOUR ACCESS TO OR USE OF OR INABILITY TO ACCESS OR USE THE SERVICE; (II) ANY CONDUCT OR CONTENT OF ANY THIRD PARTY ON THE SERVICE; (III) ANY CONTENT OBTAINED FROM THE SERVICE; AND (IV) UNAUTHORIZED ACCESS, USE OR ALTERATION OF YOUR TRANSMISSIONS OR CONTENT, WHETHER BASED ON WARRANTY, CONTRACT, TORT (INCLUDING NEGLIGENCE) OR ANY OTHER LEGAL THEORY, WHETHER OR NOT WE HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+7.3 Exclusions. Some jurisdictions do not allow the exclusion of certain warranties or the limitation or exclusion of liability for incidental or consequential damages. Accordingly, some of the above limitations may not apply to you.
+
+8. INDEMNIFICATION
+
+You agree to defend, indemnify, and hold harmless CloudStore and its licensee and licensors, and their employees, contractors, agents, officers, and directors, from and against any and all claims, damages, obligations, losses, liabilities, costs or debt, and expenses (including but not limited to attorney's fees), resulting from or arising out of (i) your use and access of the Service, (ii) your violation of any term of these Terms, (iii) your violation of any third-party right, including without limitation any copyright, property, or privacy right, or (iv) any claim that your User Content caused damage to a third party.
+
+9. GOVERNING LAW
+
+These Terms shall be governed and construed in accordance with the laws of the State of California, United States, without regard to its conflict of law provisions. Our failure to enforce any right or provision of these Terms will not be considered a waiver of those rights.
+
+10. ARBITRATION AGREEMENT
+
+10.1 Arbitration. Any dispute arising from or relating to the subject matter of these Terms shall be finally settled by arbitration in San Francisco County, California, in accordance with the Commercial Arbitration Rules of the American Arbitration Association.
+
+10.2 Class Action Waiver. Any arbitration under these Terms will take place on an individual basis; class arbitrations and class actions are not permitted.
+
+10.3 Injunctive Relief. Notwithstanding the foregoing, CloudStore may seek injunctive or other equitable relief to protect its intellectual property rights in any court of competent jurisdiction.
+
+11. CHANGES TO TERMS
+
+We reserve the right, at our sole discretion, to modify or replace these Terms at any time. If a revision is material, we will try to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.
+
+12. CONTACT US
+
+If you have any questions about these Terms, please contact us at legal@cloudstore.example.com.
+
+BY USING THE SERVICE, YOU ACKNOWLEDGE THAT YOU HAVE READ THESE TERMS OF SERVICE, UNDERSTAND THEM, AND AGREE TO BE BOUND BY THEM.

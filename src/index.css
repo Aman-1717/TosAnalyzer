@@ -1,0 +1,120 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=OpenDyslexic&display=swap');
+
+/* Dark theme by default */
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #111827; /* gray-900 */
+  color: #f3f4f6; /* gray-100 */
+}
+
+/* Dyslexia-friendly font */
+.font-dyslexic {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', cursive;
+}
+
+
+
+/* High contrast mode improvements */
+.high-contrast {
+  filter: contrast(150%);
+}
+
+.high-contrast * {
+  border-color: #ffffff !important;
+}
+
+.low-contrast {
+  filter: contrast(75%);
+}
+
+/* Focus indicators for accessibility */
+.focus-visible:focus {
+  outline: 2px solid #3B82F6;
+  outline-offset: 2px;
+}
+
+/* Reduced motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+  .motion-reduce\:transition-none {
+    transition: none !important;
+  }
+
+  .motion-reduce\:animate-none {
+    animation: none !important;
+  }
+}
+
+/* Global motion reduction when class is applied */
+.motion-reduce * {
+  transition: none !important;
+  animation: none !important;
+}
+
+/* Magnification on hover */
+.magnify-on-hover:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Guided reading mode */
+.guided-reading .opacity-50 {
+  opacity: 0.3 !important;
+}
+
+/* High contrast text improvements */
+html.high-contrast {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+html.high-contrast body {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Light theme overrides */
+html.light body {
+  background-color: #ffffff !important;
+  color: #1f2937 !important;
+}
+
+/* Ensure text is readable in all themes */
+.text-readable {
+  color: inherit;
+}
+
+/* Component styles */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  outline: none;
+}
+
+.btn:focus {
+  ring: 2px;
+  ring-offset: 2px;
+}
+
+.btn-primary {
+  background-color: #2563eb; /* blue-600 */
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8; /* blue-700 */
+}
+
+.btn-secondary {
+  background-color: #374151; /* gray-700 */
+  color: #f3f4f6; /* gray-100 */
+}
+
+.btn-secondary:hover {
+  background-color: #4b5563; /* gray-600 */
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Frontend Connection</title>
+</head>
+<body>
+    <h1>Test Frontend to Backend Connection</h1>
+    <div>
+        <input type="file" id="file1" accept=".pdf,.txt">
+        <label for="file1">File 1</label>
+    </div>
+    <div>
+        <input type="file" id="file2" accept=".pdf,.txt">
+        <label for="file2">File 2</label>
+    </div>
+    <button onclick="testConnection()">Test Connection</button>
+    <button onclick="testComparison()">Test Comparison</button>
+    <div id="result"></div>
+
+    <script>
+        const API_BASE_URL = 'http://localhost:5000';
+
+        async function testConnection() {
+            try {
+                const response = await fetch(`${API_BASE_URL}/api/health`);
+                const data = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>Connection Test Result:</h3>
+                    <pre>${JSON.stringify(data, null, 2)}</pre>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <h3>Connection Test Failed:</h3>
+                    <p style="color: red;">${error.message}</p>
+                `;
+            }
+        }
+
+        async function testComparison() {
+            const file1 = document.getElementById('file1').files[0];
+            const file2 = document.getElementById('file2').files[0];
+
+            if (!file1 || !file2) {
+                alert('Please select both files');
+                return;
+            }
+
+            try {
+                const formData = new FormData();
+                formData.append('file1', file1);
+                formData.append('file2', file2);
+
+                const response = await fetch(`${API_BASE_URL}/api/compare-comprehensive`, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const result = await response.json();
+                document.getElementById('result').innerHTML = `
+                    <h3>Comparison Test Result:</h3>
+                    <p style="color: green;">Success! Comparison completed.</p>
+                    <p>File 1: ${result.file1Name}</p>
+                    <p>File 2: ${result.file2Name}</p>
+                    <p>Analysis Type: ${result.metadata?.analysisType}</p>
+                `;
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <h3>Comparison Test Failed:</h3>
+                    <p style="color: red;">${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

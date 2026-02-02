@@ -1,0 +1,20 @@
+Terms of Service Test Document
+
+This is a test Terms of Service document for testing the file upload functionality.
+
+1. Acceptance of Terms
+By using our service, you agree to these terms.
+
+2. User Responsibilities
+Users must comply with all applicable laws.
+
+3. Privacy Policy
+We collect and use your data as described in our privacy policy.
+
+4. Limitation of Liability
+Our liability is limited to the maximum extent permitted by law.
+
+5. Termination
+We may terminate your account at any time for any reason.
+
+This is a simple test document to verify that file uploads are working correctly.

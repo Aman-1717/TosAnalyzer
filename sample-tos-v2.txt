@@ -1,0 +1,44 @@
+Terms of Service Agreement - Version 2.0
+Effective Date: June 1, 2024
+
+1. Acceptance of Terms and Age Requirements
+By accessing and using this service, you accept and agree to be bound by the terms and provisions of this agreement. You must be at least 18 years old to use this service. Minors require parental consent.
+
+2. Use License and Commercial Restrictions
+Permission is granted to temporarily download one copy of the materials on our website for personal, non-commercial transitory viewing only. Commercial use requires written permission and may incur additional fees. Bulk downloading is prohibited.
+
+3. User Responsibilities and Account Security
+Users are responsible for maintaining the confidentiality of their account information and for all activities that occur under their account. You must notify us immediately of any unauthorized access. Users agree not to share account credentials.
+
+4. Intellectual Property Rights and User Content
+All content, trademarks, and intellectual property on this service are owned by our company. Users retain ownership of content they create but grant us a perpetual, worldwide license to use, modify, and distribute such content.
+
+5. Enhanced Privacy and Data Collection
+Your privacy is important to us. We collect personal information including email addresses, usage data, location information, and device identifiers. We may share anonymized data with analytics partners and third-party service providers for marketing purposes.
+
+6. Service Availability and Planned Maintenance
+We strive to maintain 99.9% service availability but do not guarantee uninterrupted access. Planned maintenance windows may occur with 24-hour notice. We reserve the right to modify, suspend, or discontinue the service at any time without liability.
+
+7. Payment Terms and Subscription
+Premium features require paid subscription. Payments are processed monthly and are non-refundable. Price changes require 30-day notice. Failure to pay may result in service suspension.
+
+8. Disclaimer of Warranties and As-Is Service
+The service is provided on an 'as is' and 'as available' basis. We make no warranties, expressed or implied, and hereby disclaim all warranties including merchantability, fitness for a particular purpose, or non-infringement of intellectual property rights. We do not warrant error-free operation.
+
+9. Limitation of Liability and Damages
+In no event shall our company or its suppliers be liable for any indirect, incidental, special, or consequential damages including loss of data, profit, or business interruption. Our total liability is limited to $100 or the amount paid for the service in the preceding 12 months, whichever is greater.
+
+10. Termination and Account Suspension
+We may terminate or suspend your account immediately for violation of these terms, illegal activity, or at our sole discretion. Upon termination, your right to use the service ceases immediately and we may delete your data.
+
+11. Mandatory Arbitration and Class Action Waiver
+Any disputes arising from these terms shall be resolved through binding arbitration administered by the American Arbitration Association. You waive your right to participate in class action lawsuits or class-wide arbitration.
+
+12. Indemnification
+You agree to indemnify and hold harmless our company from any claims, damages, or expenses arising from your use of the service or violation of these terms.
+
+13. Force Majeure
+We shall not be liable for any failure to perform due to circumstances beyond our reasonable control, including natural disasters, government actions, or network failures.
+
+14. Governing Law and Jurisdiction
+These terms are governed by the laws of the State of Delaware, United States. You submit to the exclusive jurisdiction of Delaware courts and waive any objection to venue.

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test localStorage for Accessibility</title>
+</head>
+<body>
+    <h1>Test localStorage for Accessibility Features</h1>
+    
+    <button onclick="simulateComparison()">Simulate Document Comparison</button>
+    <button onclick="checkLocalStorage()">Check localStorage</button>
+    <button onclick="clearLocalStorage()">Clear localStorage</button>
+    <button onclick="goToAccessibility()">Go to Accessibility Page</button>
+    
+    <div id="output"></div>
+
+    <script>
+        function simulateComparison() {
+            // Simulate what the comparison component should store
+            const mockDocument = {
+                fileName: "Comparison: test-file1.txt vs test-file2.txt",
+                originalText: "Document 1 (test-file1.txt):\n\nTerms of Service - Version 1\n\n1. Introduction\nWelcome to our service. By using our platform, you agree to these terms.\n\n2. User Responsibilities\nUsers must provide accurate information and use the service responsibly.\n\n3. Privacy Policy\nWe collect and use your data in accordance with our privacy policy.\n\n4. Limitation of Liability\nWe are not liable for any damages arising from the use of our service.\n\n5. Termination\nWe may terminate your account at any time for violation of these terms.\n\n\n\nDocument 2 (test-file2.txt):\n\nTerms of Service - Version 2\n\n1. Introduction\nWelcome to our enhanced service. By using our platform, you agree to these updated terms.\n\n2. User Responsibilities\nUsers must provide accurate information, use the service responsibly, and comply with all applicable laws.\n\n3. Privacy Policy\nWe collect, store, and use your data in accordance with our comprehensive privacy policy and applicable regulations.\n\n4. Limitation of Liability\nWe are not liable for any direct, indirect, or consequential damages arising from the use of our service.\n\n5. Termination\nWe may terminate or suspend your account immediately for violation of these terms or for any other reason.\n\n6. Intellectual Property\nAll content and materials on our platform are protected by intellectual property rights.",
+                simplifiedText: "Document 1 Summary:\nDocument 1 is a basic Terms of Service outlining user responsibilities, a privacy policy reference, limitation of liability, and termination conditions. It lacks detail in several key areas.\n\nDocument 2 Summary:\nDocument 2 provides a more comprehensive Terms of Service, including specific details on user responsibilities, a more detailed privacy policy, a broader limitation of liability, termination conditions, and intellectual property rights. It offers greater protection for the provider.\n\nKey Differences:\n• User Responsibilities: Document 2 adds the requirement to comply with all applicable laws, increasing user accountability.\n• Privacy Policy: Document 2 provides more detail regarding data handling and links it to relevant regulations, suggesting a potentially more robust and transparent approach.\n• Limitation of Liability: Document 2 specifies the types of damages for which it's not liable, expanding its protection.\n• Termination: Document 2 allows for termination or suspension for a wider range of reasons, giving the provider more latitude.\n• Intellectual Property: Document 2 explicitly addresses intellectual property rights, clarifying ownership and restricting unauthorized use.",
+                riskyClauses: [
+                    {
+                        clause: "Broad limitation of liability",
+                        risk: "high",
+                        explanation: "Document 1: The lack of specifics leaves users with minimal protection against potential harm or loss resulting from service use."
+                    },
+                    {
+                        clause: "Broad limitation of liability",
+                        risk: "high", 
+                        explanation: "Document 2: The exclusion of direct, indirect, and consequential damages significantly limits user recourse in case of issues."
+                    },
+                    {
+                        clause: "Unilateral termination rights",
+                        risk: "medium",
+                        explanation: "Document 2: The broad reasons for termination ('any other reason') leave users with uncertainty and lack of protection against unfair termination."
+                    }
+                ],
+                summary: "Both Terms of Service documents present significant risks to users due to broad liability clauses and vague wording. Neither document offers sufficient transparency or protection for users. Improvements are necessary in both documents to ensure fair and equitable treatment of users.",
+                comparisonData: {
+                    file1Name: "test-file1.txt",
+                    file2Name: "test-file2.txt"
+                }
+            };
+            
+            localStorage.setItem('analyzedDocument', JSON.stringify(mockDocument));
+            document.getElementById('output').innerHTML = '<p style="color: green;">✅ Mock comparison document stored in localStorage!</p>';
+        }
+        
+        function checkLocalStorage() {
+            const stored = localStorage.getItem('analyzedDocument');
+            const output = document.getElementById('output');
+            
+            if (stored) {
+                try {
+                    const parsed = JSON.parse(stored);
+                    output.innerHTML = `
+                        <h3>📄 Document found in localStorage:</h3>
+                        <p><strong>File Name:</strong> ${parsed.fileName}</p>
+                        <p><strong>Has Original Text:</strong> ${!!parsed.originalText}</p>
+                        <p><strong>Has Simplified Text:</strong> ${!!parsed.simplifiedText}</p>
+                        <p><strong>Has Summary:</strong> ${!!parsed.summary}</p>
+                        <p><strong>Has Comparison Data:</strong> ${!!parsed.comparisonData}</p>
+                        <p><strong>Text Preview:</strong> ${(parsed.simplifiedText || parsed.originalText || 'No text').substring(0, 200)}...</p>
+                    `;
+                } catch (error) {
+                    output.innerHTML = `<p style="color: red;">❌ Error parsing stored document: ${error.message}</p>`;
+                }
+            } else {
+                output.innerHTML = '<p style="color: orange;">⚠️ No document found in localStorage</p>';
+            }
+        }
+        
+        function clearLocalStorage() {
+            localStorage.removeItem('analyzedDocument');
+            document.getElementById('output').innerHTML = '<p style="color: blue;">🗑️ localStorage cleared</p>';
+        }
+        
+        function goToAccessibility() {
+            window.open('http://localhost:5174/accessibility', '_blank');
+        }
+        
+        // Check on page load
+        window.onload = function() {
+            checkLocalStorage();
+        };
+    </script>
+</body>
+</html>
